@@ -37,7 +37,7 @@ NB:  Dans le git on ne met que le code source, pas le compilé ni tout ce qui to
  lorsqu'on ouvre un fichier
   head = la version chargée sur mon ordinateur
 
-- Pour retrouver les commits qui concernent notre fichier renommé avec son ancien nom faire : git log --follow
+- Pour retrouver les commits qui concernent notre fichier renommé avec son ancien nom faire : `git log --follow`
 
 - `git reset <id>` : revenir en arrier dans les git (on eleve des commit) 
 

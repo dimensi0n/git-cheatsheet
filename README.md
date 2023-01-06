@@ -39,9 +39,11 @@ NB:  Dans le git on ne met que le code source, pas le compilé ni tout ce qui to
 
 - Pour retrouver les commits qui concernent notre fichier renommé avec son ancien nom faire : `git log --follow`
 
-- `git reset <id>` : revenir en arrier dans les git (on eleve des commit) 
+- `git reset <id>` : annule les modifications apportées à un fichier 
 
 - `git reset --hard` : (on abondonne tout le travail, a la fois les commits et tous les fichiers à l'interieure)
+
+- `git rebase` : fusionne les modifications d'une autre branche dans votre branche active
 
 - `pull request` : demande l'autorisation pour merger une branche
 
@@ -51,6 +53,7 @@ Parcours des fichiers
  working directory[a la creation du fichier]=> [lorqu'on utilise la commande add]stage(index)=>[lorsqu'on utilise le comit]history
 
  Ps : 
+ 
        - l'identifiant des objets de commit est un hash
         une branche est un pointeur vers un commit
         - à chaque fois qu'on ajoute un commit la tete de lecture bouge dans l'historique

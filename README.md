@@ -27,11 +27,11 @@ NB:  Dans le git on ne met que le code source, pas le compilé ni tout ce qui to
  
   Cas pratiques
 
-- git clean : permet de supprimer les fichiers non suivis de votre dépôt, c'est-à-dire les fichiers qui ne sont pas dans l'index de Git.
+- `git clean` : permet de supprimer les fichiers non suivis de votre dépôt, c'est-à-dire les fichiers qui ne sont pas dans l'index de Git.
 
-- git gc (garbage collection) permet d'optimiser votre dépôt en supprimant les commits inutiles et en regroupant les données de manière plus efficace.
+- `git gc` : (garbage collection)  permet d'optimiser votre dépôt en supprimant les commits inutiles et en regroupant les données de manière plus efficace.
 
-- git mv : permet de déplacer ou de renommer des fichiers dans votre dépôt, tout en conservant l'historique des modifications apportées à ces fichiers. 
+- `git mv` : permet de déplacer ou de renommer des fichiers dans votre dépôt, tout en conservant l'historique des modifications apportées à ces fichiers. 
  
  - le fichier .gitignore permet de garder la trace du code souce uniquement
  lorsqu'on ouvre un fichier
@@ -39,11 +39,11 @@ NB:  Dans le git on ne met que le code source, pas le compilé ni tout ce qui to
 
 - Pour retrouver les commits qui concernent notre fichier renommé avec son ancien nom faire : git log --follow
 
-- git reset <id> : revenir en arrier dans les git (on eleve des commit) 
+- `git reset <id>` : revenir en arrier dans les git (on eleve des commit) 
 
-- git reset --hard : (on abondonne tout le travail, a la fois les commits et tous les fichiers à l'interieure)
+- `git reset --hard` : (on abondonne tout le travail, a la fois les commits et tous les fichiers à l'interieure)
 
-- pull request : demande l'autorisation pour merger une branche
+- `pull request` : demande l'autorisation pour merger une branche
 
 
 Parcours des fichiers

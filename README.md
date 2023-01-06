@@ -37,3 +37,13 @@ En utilisant des commits de manière régulière, vous pouvez maintenir un histo
 > 4. Utilisez git add pour mettre en attente les fichiers modifiés que vous souhaitez inclure dans le prochain commit.
 > 6. Utilisez git commit avec un message de commit pour enregistrer les modifications dans l'historique du dépôt.
 
+## Nommer une série de commits et les combiner entre eux
+
+- `git tag` : Cette commande permet de créer, lister et supprimer des tags dans Git. Un tag est un nom qui peut être associé à un commit spécifique dans l'historique du dépôt. Les tags sont souvent utilisés pour marquer des versions stables ou importantes du dépôt, par exemple une version de production ou une version de développement en cours. Par exemple, pour créer un nouveau tag nommé v1.0 qui pointe sur le dernier commit, vous pouvez utiliser la commande suivante : `git tag v1.0`
+
+- `git branch` : Cette commande permet de gérer les branches dans Git. Une branche est une série de commits qui évolue indépendamment des autres branches. Les branches sont souvent utilisées pour développer de nouvelles fonctionnalités ou corriger des bogues, tout en maintenant une version stable du dépôt sur la branche principale (appelée "master"). Par exemple, pour créer une nouvelle branche nommée new-feature, vous pouvez utiliser la commande suivante : `git branch new-feature`
+
+- `git merge` : Cette commande permet de combiner les commits d'une branche dans une autre. Elle est souvent utilisée pour fusionner les modifications apportées sur une branche de développement dans la branche principale une fois que le travail est terminé. Par exemple, pour fusionner les commits de la branche new-feature dans la branche master, vous pouvez utiliser la commande suivante : `git merge new-feature`
+
+- `git cherry-pick` : Cette commande permet de sélectionner un commit spécifique et de l'appliquer à la branche courante. Elle est souvent utilisée pour sélectionner individuellement des commits d'une branche et les appliquer à une autre, au lieu de fusionner tous les commits d'une branche avec git merge. Par exemple, pour appliquer le commit avec l'ID abcdefg à la branche courante, vous pouvez utiliser la commande suivante : `git cherry-pick abcdefg``
+

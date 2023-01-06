@@ -47,3 +47,15 @@ En utilisant des commits de manière régulière, vous pouvez maintenir un histo
 
 - `git cherry-pick` : Cette commande permet de sélectionner un commit spécifique et de l'appliquer à la branche courante. Elle est souvent utilisée pour sélectionner individuellement des commits d'une branche et les appliquer à une autre, au lieu de fusionner tous les commits d'une branche avec git merge. Par exemple, pour appliquer le commit avec l'ID abcdefg à la branche courante, vous pouvez utiliser la commande suivante : `git cherry-pick abcdefg``
 
+## Exclure des modifications et des fichiers du dépôt
+
+Un fichier .gitignore est un fichier de configuration qui permet de définir une liste de fichiers et de dossiers à ignorer par Git. Lorsque vous ajoutez un fichier ou un dossier à ce fichier, Git ne suivra pas les modifications apportées à ces éléments et ne les inclura pas dans les commits.
+
+Voici comment utiliser un fichier .gitignore pour exclure des fichiers et des chemins temporaires :
+
+1. Créez un fichier .gitignore dans le répertoire racine de votre dépôt Git.
+2. Ajoutez la liste des fichiers et dossiers à ignorer, un par ligne. Vous pouvez utiliser des caractères génériques comme * et ? pour ignorer plusieurs fichiers similaires. Par exemple, pour ignorer tous les fichiers terminant par .tmp, vous pouvez ajouter la ligne suivante au fichier .gitignore : *.tmp
+3. Enregistrez le fichier .gitignore. Git commencera à ignorer les fichiers et dossiers spécifiés dans ce fichier lors de l'exécution de la commande git add.
+
+> Notez que si vous avez déjà ajouté des fichiers ou dossiers à Git avant de les ajouter au fichier .gitignore, ils resteront suivis par Git et inclu dans les commits futurs. Vous pouvez utiliser la commande git rm --cached pour arrêter de suivre ces fichiers et les exclure des commits futurs.
+

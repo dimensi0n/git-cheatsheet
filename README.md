@@ -50,11 +50,10 @@ Parcours des fichiers
 
  working directory[a la creation du fichier]=> [lorqu'on utilise la commande add]stage(index)=>[lorsqu'on utilise le comit]history
 
- Ps : - à chaque fois qu'on ajoute un commit la tete de lecture bouge dans l'historique.
-
+ Ps : 
        - l'identifiant des objets de commit est un hash
         une branche est un pointeur vers un commit
-         
+        - à chaque fois qu'on ajoute un commit la tete de lecture bouge dans l'historique
        - ne jamais vraiment modifier un commit dans le git
        - la fusion de deux branches peut causer un conflit
 

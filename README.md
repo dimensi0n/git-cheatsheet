@@ -1,5 +1,14 @@
 # Git Cheat Sheet - ESGI
 
+# Github
+
+GitHub est un service en ligne qui permet à des développeurs de stocker et de suivre les versions de leur code source. C'est un outil très utile pour le travail en équipe sur un projet de développement de logiciel, car il permet à plusieurs personnes de travailler sur le même code en même temps et de suivre les changements apportés au fil du temps.
+
+GitHub utilise Git, un logiciel de contrôle de version, pour gérer le suivi des changements apportés au code. Chaque fois qu'un développeur modifie le code, il peut utiliser Git pour enregistrer ces changements (ce que l'on appelle "committer" les changements). Les développeurs peuvent également "pusher" leurs changements sur GitHub, ce qui permet de les partager avec d'autres membres de l'équipe.
+
+GitHub offre également de nombreuses autres fonctionnalités, telles que la gestion des tâches, la documentation du projet, et l'intégration avec d'autres services populaires. C'est devenu une plateforme de développement de logiciel incontournable pour de nombreuses équipes à travers le monde.
+
+
 ## Configuration des outils
 
 - `git config` : Cette commande permet de configurer les paramètres de Git à différents niveaux (système, utilisateur ou local au niveau d'un dépôt). Elle peut être utilisée pour définir votre nom d'utilisateur et votre adresse électronique, qui seront utilisés pour les opérations de commit. Par exemple : git config --global user.name "Mon Nom"

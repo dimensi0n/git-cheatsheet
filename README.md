@@ -43,7 +43,7 @@ NB:  Dans le git on ne met que le code source, pas le compilé ni tout ce qui to
 
 - `git reset --hard` : (on abondonne tout le travail, a la fois les commits et tous les fichiers à l'interieure)
 
-- `git rebase` : fusionne les modifications d'une autre branche dans votre branche active
+- `git rebase` : Le rebase est l'un des deux utilitaires Git spécialisé dans l'intégration des changements d'une branche à une autre. L'autre utilitaire d'intégration des changements est git merge. Le merge est toujours un enregistrement des changements vers l'avant. Alternativement, le rebase dispose de puissantes fonctionnalités de réécriture de l'historique
 
 - `pull request` : demande l'autorisation pour merger une branche
 

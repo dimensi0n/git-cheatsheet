@@ -71,3 +71,12 @@ Voici comment utiliser un fichier .gitignore pour exclure des fichiers et des ch
 
 - `git stash drop` : Cette commande permet de supprimer une modification mise en attente de la liste des modifications mises en attente. Elle peut être utilisée pour supprimer une modification mise en attente dont vous n'avez plus besoin. Par exemple, pour supprimer la dernière modification mise en attente, vous pouvez utiliser la commande suivante : `git stash drop`
 
+## Référencer un dépôt distant et synchroniser l'historique de versions
+
+- `git remote` : Cette commande permet de gérer les connexions à d'autres dépôts distants. Elle peut être utilisée pour ajouter un dépôt distant à votre dépôt local en utilisant la sous-commande add, comme dans l'exemple suivant : `git remote add origin https://github.com/user/repo.git`
+
+`git fetch` : Cette commande permet de télécharger les commits et les objets associés à partir d'un dépôt distant, sans les fusionner dans votre branche courante. Elle est souvent utilisée pour récupérer les modifications apportées par d'autres personnes au dépôt distant et les préparer pour une fusion ultérieure avec git merge. Par exemple, pour télécharger les commits du dépôt distant nommé origin, vous pouvez utiliser la commande suivante : `git fetch origin`
+
+`git pull` : Cette commande permet de récupérer et de fusionner les commits d'un dépôt distant dans votre branche courante. Elle est souvent utilisée pour synchroniser votre dépôt local avec le dépôt distant et intégrer les modifications apportées par d'autres personnes. Par exemple, pour récupérer et fusionner les commits du dépôt distant nommé origin dans votre branche courante, vous pouvez utiliser la commande suivante : `git pull origin`
+
+`git push` : Cette commande permet de publier les commits de votre dépôt local sur un dépôt distant.

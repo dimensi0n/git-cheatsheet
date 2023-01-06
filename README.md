@@ -11,7 +11,7 @@ Les principaux avantes sont donc listés comme suite :
 - L'aide au passage d'une version à une autre (livraison fluide des modifications sans que ça soit lourd)
 - Cela facilite également la collaboration et sert à resoudre facilement les conflits.
 
-## Systemme de gestion de version
+## Systeme de gestion de version
 NB:  Dans le git on ne met que le code source, pas le compilé ni tout ce qui tourne autour
 
  on distingue ainsi plusieurs types de systèmes :

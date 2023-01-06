@@ -59,3 +59,15 @@ Voici comment utiliser un fichier .gitignore pour exclure des fichiers et des ch
 
 > Notez que si vous avez déjà ajouté des fichiers ou dossiers à Git avant de les ajouter au fichier .gitignore, ils resteront suivis par Git et inclu dans les commits futurs. Vous pouvez utiliser la commande git rm --cached pour arrêter de suivre ces fichiers et les exclure des commits futurs.
 
+## Mettre en suspens des modifications non finies pour y revenir plus tard
+
+- `git stash` : Cette commande permet de mettre en attente les modifications en cours et de les cacher temporairement. Elle est souvent utilisée lorsque vous souhaitez changer de branche ou effectuer une autre action qui nécessite de nettoyer votre dépôt local, tout en conservant les modifications en cours pour y revenir plus tard. Par exemple, pour mettre en attente les modifications en cours et nettoyer votre dépôt, vous pouvez utiliser la commande suivante : `git stash`
+
+- `git stash list` : Cette commande permet de voir la liste des modifications mises en attente avec git stash. Elle peut être utile pour savoir combien de modifications sont en attente et leur contenu.
+
+- `git stash apply` : Cette commande permet de réappliquer les modifications mises en attente avec git stash. Elle peut être utilisée pour continuer le travail sur les modifications mises en attente à un moment donné. Par exemple, pour réappliquer les dernières modifications mises en attente, vous pouvez utiliser la commande suivante : `git stash apply`
+
+- `git stash pop` : Cette commande fait la même chose que git stash apply, mais en plus elle supprime la modification mise en attente de la liste des modifications mises en attente. Cela peut être utile lorsque vous avez terminé de travailler sur les modifications mises en attente et que vous souhaitez nettoyer votre liste de modifications mises en attente. Par exemple, pour réappliquer et supprimer les dernières modifications mises en attente, vous pouvez utiliser la commande suivante : `git stash pop``
+
+- `git stash drop` : Cette commande permet de supprimer une modification mise en attente de la liste des modifications mises en attente. Elle peut être utilisée pour supprimer une modification mise en attente dont vous n'avez plus besoin. Par exemple, pour supprimer la dernière modification mise en attente, vous pouvez utiliser la commande suivante : `git stash drop`
+

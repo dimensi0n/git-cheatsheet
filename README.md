@@ -55,8 +55,8 @@ Parcours des fichiers
        - l'identifiant des objets de commit est un hash
         une branche est un pointeur vers un commit
          
-         - ne jamais vraiment modifier un commit dans le git
-         - la fusion de deux branches peut causer un conflit
+       - ne jamais vraiment modifier un commit dans le git
+       - la fusion de deux branches peut causer un conflit
 
 # Github
 

@@ -112,7 +112,7 @@ En utilisant des commits de manière régulière, vous pouvez maintenir un histo
 
 - `git merge` : Cette commande permet de combiner les commits d'une branche dans une autre. Elle est souvent utilisée pour fusionner les modifications apportées sur une branche de développement dans la branche principale une fois que le travail est terminé. Par exemple, pour fusionner les commits de la branche new-feature dans la branche master, vous pouvez utiliser la commande suivante : `git merge new-feature`
 
-- `git cherry-pick` : Cette commande permet de sélectionner un commit spécifique et de l'appliquer à la branche courante. Elle est souvent utilisée pour sélectionner individuellement des commits d'une branche et les appliquer à une autre, au lieu de fusionner tous les commits d'une branche avec git merge. Par exemple, pour appliquer le commit avec l'ID abcdefg à la branche courante, vous pouvez utiliser la commande suivante : `git cherry-pick abcdefg``
+- `git cherry-pick` : Cette commande permet de sélectionner un commit spécifique et de l'appliquer à la branche courante. Elle est souvent utilisée pour sélectionner individuellement des commits d'une branche et les appliquer à une autre, au lieu de fusionner tous les commits d'une branche avec git merge. Par exemple, pour appliquer le commit avec l'ID abcdefg à la branche courante, vous pouvez utiliser la commande suivante : `git cherry-pick abcdefg`
 
 ## Exclure des modifications et des fichiers du dépôt
 
@@ -134,7 +134,7 @@ Voici comment utiliser un fichier .gitignore pour exclure des fichiers et des ch
 
 - `git stash apply` : Cette commande permet de réappliquer les modifications mises en attente avec git stash. Elle peut être utilisée pour continuer le travail sur les modifications mises en attente à un moment donné. Par exemple, pour réappliquer les dernières modifications mises en attente, vous pouvez utiliser la commande suivante : `git stash apply`
 
-- `git stash pop` : Cette commande fait la même chose que git stash apply, mais en plus elle supprime la modification mise en attente de la liste des modifications mises en attente. Cela peut être utile lorsque vous avez terminé de travailler sur les modifications mises en attente et que vous souhaitez nettoyer votre liste de modifications mises en attente. Par exemple, pour réappliquer et supprimer les dernières modifications mises en attente, vous pouvez utiliser la commande suivante : `git stash pop``
+- `git stash pop` : Cette commande fait la même chose que git stash apply, mais en plus elle supprime la modification mise en attente de la liste des modifications mises en attente. Cela peut être utile lorsque vous avez terminé de travailler sur les modifications mises en attente et que vous souhaitez nettoyer votre liste de modifications mises en attente. Par exemple, pour réappliquer et supprimer les dernières modifications mises en attente, vous pouvez utiliser la commande suivante : `git stash pop`
 
 - `git stash drop` : Cette commande permet de supprimer une modification mise en attente de la liste des modifications mises en attente. Elle peut être utilisée pour supprimer une modification mise en attente dont vous n'avez plus besoin. Par exemple, pour supprimer la dernière modification mise en attente, vous pouvez utiliser la commande suivante : `git stash drop`
 
